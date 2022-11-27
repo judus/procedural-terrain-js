@@ -1,0 +1,963 @@
+{
+  "name": "terrain",
+  "tileW": 16,
+  "tileH": 16,
+  "frames": [
+    {
+      "name": "grass-1-1",
+      "rect": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-0-0",
+      "rect": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-1-0",
+      "rect": [
+        16,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-2-0",
+      "rect": [
+        32,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-2-1",
+      "rect": [
+        32,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-2-2",
+      "rect": [
+        32,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-1-2",
+      "rect": [
+        16,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-0-2",
+      "rect": [
+        0,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-0-1",
+      "rect": [
+        0,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-3-0",
+      "rect": [
+        48,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-4-0",
+      "rect": [
+        64,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-3-1",
+      "rect": [
+        48,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-4-1",
+      "rect": [
+        64,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-3-2",
+      "rect": [
+        48,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-4-2",
+      "rect": [
+        64,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-slope-0-9",
+      "rect": [
+        0,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-slope-1-9",
+      "rect": [
+        16,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-slope-2-9",
+      "rect": [
+        32,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-slope-3-9",
+      "rect": [
+        48,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-0-3",
+      "rect": [
+        0,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-1-3",
+      "rect": [
+        16,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-2-3",
+      "rect": [
+        32,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-2-4",
+      "rect": [
+        32,
+        64,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-2-5",
+      "rect": [
+        32,
+        80,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-1-5",
+      "rect": [
+        16,
+        80,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-0-5",
+      "rect": [
+        0,
+        80,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-0-4",
+      "rect": [
+        0,
+        64,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "darkgrass-1-4",
+      "rect": [
+        16,
+        64,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-3-3",
+      "rect": [
+        48,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-4-3",
+      "rect": [
+        64,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-5-3",
+      "rect": [
+        80,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-5-4",
+      "rect": [
+        80,
+        64,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-5-5",
+      "rect": [
+        80,
+        80,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-4-5",
+      "rect": [
+        64,
+        80,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-3-5",
+      "rect": [
+        48,
+        80,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-3-4",
+      "rect": [
+        48,
+        64,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-6-3",
+      "rect": [
+        96,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-7-3",
+      "rect": [
+        112,
+        48,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-7-4",
+      "rect": [
+        112,
+        64,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "grass-up-grass-6-4",
+      "rect": [
+        96,
+        64,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-6-0",
+      "rect": [
+        96,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-slope-4-9",
+      "rect": [
+        64,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-slope-5-9",
+      "rect": [
+        80,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-slope-6-9",
+      "rect": [
+        96,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-slope-7-9",
+      "rect": [
+        112,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-3-6",
+      "rect": [
+        48,
+        96,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-4-6",
+      "rect": [
+        64,
+        96,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-5-6",
+      "rect": [
+        80,
+        96,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-5-7",
+      "rect": [
+        80,
+        112,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-5-8",
+      "rect": [
+        80,
+        128,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-4-8",
+      "rect": [
+        64,
+        128,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-3-8",
+      "rect": [
+        48,
+        128,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-3-7",
+      "rect": [
+        48,
+        112,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-6-6",
+      "rect": [
+        96,
+        96,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-7-6",
+      "rect": [
+        112,
+        96,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-7-7",
+      "rect": [
+        112,
+        112,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "dirt-up-dirt-6-7",
+      "rect": [
+        96,
+        112,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-0-10",
+      "rect": [
+        0,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-1-10",
+      "rect": [
+        16,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-2-10",
+      "rect": [
+        32,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-2-11",
+      "rect": [
+        32,
+        176,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-2-12",
+      "rect": [
+        32,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-1-12",
+      "rect": [
+        16,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-0-12",
+      "rect": [
+        0,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-0-11",
+      "rect": [
+        0,
+        176,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water",
+      "rect": [
+        16,
+        176,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-6-10",
+      "rect": [
+        96,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-7-10",
+      "rect": [
+        112,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-7-11",
+      "rect": [
+        112,
+        176,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-6-11",
+      "rect": [
+        96,
+        176,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-6-12",
+      "rect": [
+        96,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-grass-7-12",
+      "rect": [
+        112,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-3-10",
+      "rect": [
+        48,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-4-10",
+      "rect": [
+        64,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-5-10",
+      "rect": [
+        80,
+        160,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-5-11",
+      "rect": [
+        80,
+        176,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-5-12",
+      "rect": [
+        80,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-4-12",
+      "rect": [
+        64,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-3-12",
+      "rect": [
+        48,
+        192,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "water-up-dirt-3-11",
+      "rect": [
+        48,
+        176,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-grass-5-0",
+      "rect": [
+        80,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-grass-5-1",
+      "rect": [
+        80,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-grass-5-2",
+      "rect": [
+        80,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-dirt-7-0",
+      "rect": [
+        112,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-dirt-6-1",
+      "rect": [
+        96,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-dirt-7-1",
+      "rect": [
+        112,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-dirt-6-2",
+      "rect": [
+        96,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-dirt-7-2",
+      "rect": [
+        112,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-water-6-13",
+      "rect": [
+        96,
+        208,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-water-7-13",
+      "rect": [
+        112,
+        208,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-water-6-14",
+      "rect": [
+        96,
+        224,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "deco-water-7-14",
+      "rect": [
+        112,
+        224,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-8-0",
+      "rect": [
+        128,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-9-0",
+      "rect": [
+        144,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-10-0",
+      "rect": [
+        160,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-10-1",
+      "rect": [
+        160,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-10-2",
+      "rect": [
+        160,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-9-2",
+      "rect": [
+        144,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-8-2",
+      "rect": [
+        128,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-8-1",
+      "rect": [
+        128,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-11-0",
+      "rect": [
+        176,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-12-0",
+      "rect": [
+        192,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-12-1",
+      "rect": [
+        192,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-11-1",
+      "rect": [
+        176,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "up-snow-9-1",
+      "rect": [
+        144,
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "_animations": [
+    {
+      "name": "run",
+      "frameLen": 6,
+      "frames": [
+        "run-1",
+        "run-2",
+        "run-3"
+      ]
+    }
+  ]
+}

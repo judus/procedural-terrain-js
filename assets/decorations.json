@@ -1,0 +1,313 @@
+{
+  "name": "decorations",
+  "tileW": 16,
+  "tileH": 16,
+  "frames": [
+    {
+      "name": "bush-on-grass",
+      "rect": [
+        0,
+        0,
+        48,
+        32
+      ]
+    },
+    {
+      "name": "bush",
+      "rect": [
+        0,
+        32,
+        48,
+        32
+      ]
+    },
+    {
+      "name": "trunc-on-grass",
+      "rect": [
+        64,
+        0,
+        64,
+        32
+      ]
+    },
+    {
+      "name": "trunc",
+      "rect": [
+        64,
+        32,
+        64,
+        32
+      ]
+    },
+    {
+      "name": "small-bush-on-grass",
+      "rect": [
+        128,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "small-bush",
+      "rect": [
+        128,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-on-grass-1",
+      "rect": [
+        160,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-on-grass-2",
+      "rect": [
+        192,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-on-grass-3",
+      "rect": [
+        224,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-1",
+      "rect": [
+        160,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-2",
+      "rect": [
+        192,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-3",
+      "rect": [
+        224,
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-on-dirt-1",
+      "rect": [
+        160,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-on-dirt-2",
+      "rect": [
+        192,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "mushroom-on-dirt-3",
+      "rect": [
+        224,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "plant-on-grass-1",
+      "rect": [
+        0,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "plant-on-grass-2",
+      "rect": [
+        32,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "plant-on-dirt-1",
+      "rect": [
+        0,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "plant-on-dirt-2",
+      "rect": [
+        32,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "water-plant-on-grass-1",
+      "rect": [
+        64,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "water-plant-on-grass-2",
+      "rect": [
+        96,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "water-plant-on-dirt-1",
+      "rect": [
+        64,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "water-plant-on-grass-2",
+      "rect": [
+        96,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "small-stone",
+      "rect": [
+        128,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "stone-on-grass",
+      "rect": [
+        160,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "stone-on-dirt",
+      "rect": [
+        192,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "stone",
+      "rect": [
+        224,
+        96,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "rock-on-grass",
+      "rect": [
+        160,
+        128,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "rock-on-dirt",
+      "rect": [
+        192,
+        128,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "rock",
+      "rect": [
+        224,
+        128,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "tree-on-grass",
+      "rect": [
+        0,
+        128,
+        80,
+        112
+      ]
+    },
+    {
+      "name": "tree-on-dirt",
+      "rect": [
+        80,
+        128,
+        80,
+        112
+      ]
+    },
+    {
+      "name": "small-tree-on-grass",
+      "rect": [
+        160,
+        160,
+        48,
+        80
+      ]
+    },
+    {
+      "name": "small-tree-on-dirt",
+      "rect": [
+        208,
+        160,
+        48,
+        80
+      ]
+    }
+  ]
+}
